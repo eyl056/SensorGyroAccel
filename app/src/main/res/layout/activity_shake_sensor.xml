@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shakeSensor">
+
+    <TextView
+        android:id="@+id/gyroX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="x좌표 : " />
+
+    <TextView
+        android:id="@+id/gyroY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gyroX"
+        android:layout_centerHorizontal="true"
+        android:text="y좌표 : " />
+
+    <TextView
+        android:id="@+id/gyroZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gyroY"
+        android:layout_centerHorizontal="true"
+        android:text="z좌표 : " />
+
+    <TextView
+        android:id="@+id/axisX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gyroZ"
+        android:layout_centerHorizontal="true"
+        android:text="axisX:" />
+
+    <TextView
+        android:id="@+id/axisY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/axisX"
+        android:layout_centerHorizontal="true"
+        android:text="axisY:" />
+
+    <TextView
+        android:id="@+id/axisZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/axisY"
+        android:layout_centerHorizontal="true"
+        android:text="axisZ:" />
+
+    <TextView
+        android:id="@+id/tiltText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/axisZ"
+        android:layout_centerHorizontal="true"
+        android:text="tilt:" />
+
+    <Button
+        android:id="@+id/btGoHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="홈으로 가기" />
+
+</RelativeLayout>
